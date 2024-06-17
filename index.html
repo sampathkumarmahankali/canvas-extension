@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketching Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <div class="pen-controls">
+            <label for="penSize">Pen Size:</label>
+            <select id="penSize">
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="10">10</option>
+            </select>
+            <button id="pen">Pen</button>
+        </div>
+        <div class="eraser-controls">
+            <label for="eraserSize">Eraser Size:</label>
+            <select id="eraserSize">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+                <option value="20">20</option>
+            </select>
+            <button id="eraser">Eraser</button>
+        </div>
+    </div>
+    <canvas id="drawingCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
+
